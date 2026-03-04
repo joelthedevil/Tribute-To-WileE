@@ -1,0 +1,50 @@
+html {
+    scroll-behavior: smooth;
+}
+body {
+    font-size: large;
+    margin: 0;
+    background-color: rgb(160, 26, 26);
+    background-image: linear-gradient(rgb(230, 104, 104),rgb(65, 8, 8));
+    background-size: 100vh;
+}
+img {
+     max-width: 100%;
+     height: auto;
+}
+.container {
+    width: 100%;
+    margin: auto;
+}
+.center {
+    text-align: center;
+}
+.right {
+    text-align: right;
+}
+header  {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+}
+header:first-child {
+    align-items: center;
+    text-align: center;
+}
+section {
+    display: block;
+    margin-bottom: 5rem;
+    text-align: center;
+    background-color: rgb(163, 91, 91);
+    padding: 3rem;
+    border: 3px solid #500505;
+    border-radius: 2px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+
+}
+section p {
+    line-height: 1.4;
+    text-align: justify;
+}
+footer {
+    bottom: 0%;
+}
