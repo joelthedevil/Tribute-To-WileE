@@ -1,0 +1,50 @@
+html {
+    scroll-behavior: smooth;
+}
+body {
+    font-size: large;
+    margin: 0;
+    background-color: rgb(160, 26, 26);
+    background-image: linear-gradient(rgb(230, 104, 104),rgb(65, 8, 8));
+}
+.nav {
+  grid-area: nav;
+}
+img {
+    max-width: 85%;
+    height: auto;
+}
+picture {
+    text-align: center;
+}
+.container {
+    width: 100%;
+    margin: auto;
+}
+header {
+    text-align: center;
+}
+main {
+    display: block;
+    background-color: rgb(122, 37, 37);
+}
+.col-1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 2em;
+    row-gap: 2em;
+}
+.col-1 section {
+    display: block;
+    text-align: center;
+    margin: 20px;
+    background-color: rgb(163, 91, 91);
+    padding: 2rem;
+    border: 3px solid #500505;
+    border-radius: 2px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+.col-1 section p {
+    line-height: 1.4;
+    text-align: justify;
+}
